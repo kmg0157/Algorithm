@@ -1,3 +1,3 @@
 # Algorithm
 
-Algorithm Problem Solving
+Algorithm Study Note
