@@ -5,7 +5,7 @@
 using namespace std;
 
 int solution(vector<int> numbers) {
-    sort(numbers.begin(), numbers.end(), greater<int>());
+    sort(numbers.begin(), numbers.end());
     
     int n = numbers.size();
     
