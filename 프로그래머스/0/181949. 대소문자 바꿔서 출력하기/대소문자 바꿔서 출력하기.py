@@ -1,5 +1,3 @@
 str = input()
-
-answer=str.swapcase()
-
-print(answer)
+a=str.swapcase()
+print(a)
