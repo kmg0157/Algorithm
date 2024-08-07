@@ -1,8 +1,9 @@
 def solution(a, b):
     answer = 0
     
-    ans1=str(a)+str(b)
-    ans2=str(b)+str(a)
-    answer=max(int(ans1),int(ans2))
+    sum1=str(a)+str(b)
+    sum2=str(b)+str(a)
+    
+    answer=int(sum1) if int(sum1)>int(sum2) else int(sum2)
     
     return answer
