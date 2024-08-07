@@ -1,7 +1,3 @@
 def solution(arr):
-    answer = ''
-    
-    for char in arr:
-        answer+=str(char)
-    
+    answer = ''.join(arr)
     return answer
